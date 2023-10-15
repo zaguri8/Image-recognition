@@ -1,0 +1,6 @@
+lib
+bin
+include
+__pycache__
+models
+pyvenv.cfg
