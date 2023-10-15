@@ -1,0 +1,6 @@
+#!/bin/bash
+if python3 top_similar_matches.py "$@" > /dev/null 2>&1; then
+  echo -e "\033[92mFound Photos with with 90% similarities.\033[0m"
+else
+  echo -e "\033[91mScript failed.\033[0m"
+fi
